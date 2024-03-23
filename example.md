@@ -1,5 +1,4 @@
-## example
-### User
+## User
 the domain is electricity trading. The company is located in brazil, therefore follows the rules and laws from brazil.
 
 Give me an example of a user story, break the work into epics, features and individual user stories.
@@ -8,19 +7,19 @@ Along with that what business capability is this user story related to, domain, 
 then give me a list of the microservices i must create along with the features and functionalities each microservice must encapsulate
 
 
-### ChatGPT
+## ChatGPT
 
 Sure, let's break down the user story and its related components:
 User Story:
 
 "As a trader, I want to view real-time electricity market prices for different regions in Brazil, so that I can make informed trading decisions."
 
-Epics:
+### Epics:
 
     Real-Time Market Data Integration
     Visualization of Market Prices
 
-Features and Individual User Stories:
+### Features and Individual User Stories:
 Real-Time Market Data Integration:
 
     Feature: Data Collection and Integration
