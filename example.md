@@ -19,7 +19,7 @@ User Story:
     Visualization of Market Prices
 
 ### Features and Individual User Stories
-**Real-Time Market Data Integration**:
+**Real-Time Market Data Integration**
 
     Feature: Data Collection and Integration
         User Story: "As a system administrator, I want to configure data sources and collect real-time market data from electricity exchanges, weather APIs, and regulatory agencies."
