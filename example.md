@@ -3,7 +3,7 @@ User
 the domain is electricity trading. The company is located in brazil, therefore follows the rules and laws from brazil.
 
 Give me an example of a user story, break the work into epics, features and individual user stories.
-Along with that what business capability is this user story related to, domain, sub domain and boded context, along with entities, value objects and aggregations.
+Along with that what business capability is this user story related to, domain, sub domain and bonded context, along with entities, value objects and agreggates.
 
 then give me a list of the microservices i must create along with the features and functionalities each microservice must encapsulate
 
