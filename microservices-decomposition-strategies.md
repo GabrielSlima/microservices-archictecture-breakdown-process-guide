@@ -14,3 +14,8 @@ By following this approach, you ensure that each microservice has a clear and we
 
 
 
+## Microservice decomposition strategy by Domain-Driven Design (DDD)
+Apply DDD principles to identify bounded contexts within the sub-business capability. Each bounded context can correspond to a microservice, and you can decompose features within each context accordingly.
+
+## Microservice decomposition strategy by Functional Decomposition
+Break down features into smaller, more manageable functions or tasks, and assign them to appropriate microservices based on their domain relevance and cohesion.
