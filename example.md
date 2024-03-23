@@ -14,20 +14,20 @@ User Story:
 
 "As a trader, I want to view real-time electricity market prices for different regions in Brazil, so that I can make informed trading decisions."
 
-### Epics:
-
+### Epics
     Real-Time Market Data Integration
     Visualization of Market Prices
 
-### Features and Individual User Stories:
-** Real-Time Market Data Integration:
+### Features and Individual User Stories
+**Real-Time Market Data Integration**:
 
     Feature: Data Collection and Integration
         User Story: "As a system administrator, I want to configure data sources and collect real-time market data from electricity exchanges, weather APIs, and regulatory agencies."
     Feature: Data Processing and Normalization
         User Story: "As a data engineer, I want to process and normalize incoming market data, ensuring consistency and accuracy for further analysis."
 
-Acceptance Tests
+**Acceptance Tests**
+
     Scenario: Data Collection and Integration
         Given the Market Data Service is running
         When I request to collect and integrate market data
@@ -41,14 +41,15 @@ Acceptance Tests
         And the normalized data should be stored in the database
 
 
-Visualization of Market Prices:
+**Visualization of Market Prices**
 
     Feature: Market Price Dashboard
         User Story: "As a trader, I want to access a dashboard that displays real-time electricity market prices for different regions in Brazil, including spot prices, futures prices, and historical trends."
     Feature: Region-Specific Price Analysis
         User Story: "As a trader, I want to analyze market prices for specific regions in Brazil, such as São Paulo, Rio de Janeiro, and Minas Gerais, to identify trading opportunities and risks."
 
-Acceptance Tests
+**Acceptance Tests**
+
     Scenario: Market Price Dashboard
         Given the Visualization Service is running
         When I request the market price dashboard
@@ -61,19 +62,19 @@ Acceptance Tests
         Then the region-specific price analysis should be displayed
         And it should show detailed information about market prices for that region
 
-Business Capability, Domain, Subdomain, and Bounded Context:
+## Business Capability, Domain, Subdomain, and Bounded Context
 
     Business Capability: Market Analysis and Research
     Domain: Electricity Trading
     Subdomain/Bounded Context: Market Data Integration and Visualization
 
-Entities, Value Objects, and Aggregations:
+## Entities, Value Objects, and Aggregations
 
     Entities: MarketDataPoint, Region, MarketPrice
     Value Objects: PriceRange, TimePeriod
     Aggregations: MarketPriceDashboard, MarketPriceAnalysis
 
-Microservices and Features:
+## Microservices and Features
 
     Market Data Service:
         Features:
