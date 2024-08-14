@@ -4,7 +4,7 @@ A guide for identifying microservices into your architecture aligned with Martin
 This guide was built with the help of Chat GPT 3.5. Not all the credit is mine. I just asked a few questions.
 
 ## microservices architecture construction stages
-![Construction stages](./microservices-architecture-stages.png)
+![Construction stages](./microservices-architecture-construction-satages.png)
 
 ## References
 - ChatGPT for sure
